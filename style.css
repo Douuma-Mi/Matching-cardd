@@ -120,8 +120,155 @@ body{
   background: #000f94;
   /*change color button when hover souris*/
 }
+@media(max-width:320px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  /*Organizing the basic things for a web site*/
+  p{
+    font-size: 20px;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(15, 0, 148);
+    /*Organization of the arriér plan de site*/
+  }
+  .emballage{
+    padding: 25px;
+    background-color: #140088 ; 
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(0, 17, 255);
+    height: 375px;
+    /*You must and decorate the place where the pictures are placed*/
+    
+  }
+  .cards{
+    height: 300px;
+    width: 82vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*Determine the size of the images*/
+  }
+  
+  .details{
+    width: 100%;
+    margin-top: 15px;
+    padding: 0 40px;
+    border-radius: 7px;
+    background: #fff;
+    height: calc(100% / 4 - 30px);
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0, 38, 255);
+    /*Select a location to record score et time*/
+  }
+  .details p{
+    font-size: 18px;
+    height: 0px;
+    padding-right: 18px;
+    border-right: 1px solid #2f00ff;
+    /*Separation between score and time*/
+  }
+  .details p span{
+    margin-left: 8px;
+  }
+  .details p b{
+    font-weight: 500;
+  }
+  /*espace between score et time*/
+  .details button{
+    cursor: pointer;
+    font-size: 14px;
+    color: #0011ff;
+    border-radius: 4px;
+    padding: 4px 11px;
+    background: #fff;
+    border: 2px solid #001799;
+    transition: 0.3s ease;
+    position: relative;
+        top: 50px;
+        right: 130PX;
+  }
+  
+ 
 
 
+}
 
 
+@media (321px <= width <= 400px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  /*Organizing the basic things for a web site*/
+  p{
+    font-size: 20px;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(15, 0, 148);
+    /*Organization of the arriér plan de site*/
+  }
+  .emballage{
+    padding: 25px;
+    background-color: #140088 ; 
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(0, 17, 255);
+    height: 375px;
+    width: 90vw;
+    /*You must and decorate the place where the pictures are placed*/
+    
+  }
+  .cards{
+    height: 296px;
+    width: 78vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*Determine the size of the images*/
+  }
+  
+  .details{
+    width: 100%;
+    margin-top: 15px;
+    padding: 0 58px;
+    border-radius: 7px;
+    background: #fff;
+    height: calc(100% / 4 - 30px);
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0, 38, 255);
+    /*Select a location to record score et time*/
+  }
 
+  /*espace between score et time*/
+  .details button{
+    cursor: pointer;
+    font-size: 14px;
+    color: #0011ff;
+    border-radius: 4px;
+    padding: 4px 11px;
+    background: #fff;
+    border: 2px solid #001799;
+    transition: 0.3s ease;
+    position: relative;
+    top: 50px;
+    right: 135PX;
+  }
+  .details p{
+    font-size: 18px;
+    height: 0px;
+    padding-right: 18px;
+
+    /*Separation between score and time*/
+  }
+}
